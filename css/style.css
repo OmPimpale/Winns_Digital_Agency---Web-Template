@@ -214,44 +214,37 @@
 .projectimg1 {
   background-image: url(../images/illustrative/project-1.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
 }
 
 .projectimg2 {
   background-image: url(../images/illustrative/project-2.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
 }
 
 .projectimg3 {
   background-image: url(../images/illustrative/project-3.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
 }
 
 .projectimg4 {
   background-image: url(../images/illustrative/project-4.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
 }
 
 #projectdiv1>h2 {
   font-family: var(--headfont);
-}
-
-#projectsbtn1 {
-  background-color: rgb(232, 227, 227);
-  font-family: var(--headfont);
-  font-weight: 600;
-}
-
-#projectsbtn2 {
-  background-color: rgb(232, 227, 227);
-  font-family: var(--headfont);
-  font-weight: 600;
-}
-
-#projectsbtn1:hover,
-#projectsbtn2:hover {
-  color: var(--white);
-  background-color: var(--blue);
-  transition-duration: 0.25s;
 }
 
 #viewprojects {
@@ -260,6 +253,7 @@
   font-family: var(--headfont);
   font-size: 18px;
   margin-top: 20px;
+  transition: all .4s ease-in-out;
 }
 
 #viewprojects:hover{
@@ -267,7 +261,6 @@
  color: var(--white);
  margin-top: 0px;
  margin-bottom: 20px;
- transition-duration: 0.4s;
 }
 
 /* testimonials */
@@ -383,6 +376,10 @@
   text-align: center;
   font-weight: 500;
   font-family: var(--headfont);
+}
+
+.brand{
+  width: 50% !important;
 }
 
 /* guide */
