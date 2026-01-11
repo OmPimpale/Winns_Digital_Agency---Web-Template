@@ -252,15 +252,12 @@
   color: var(--white);
   font-family: var(--headfont);
   font-size: 18px;
-  margin-top: 20px;
   transition: all .4s ease-in-out;
 }
 
 #viewprojects:hover{
  background-color: var(--blue);
  color: var(--white);
- margin-top: 0px;
- margin-bottom: 20px;
 }
 
 /* testimonials */
